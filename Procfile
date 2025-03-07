@@ -1,1 +1,1 @@
-worker: npm run build && npm run start-heroku
+worker: npm run start-heroku

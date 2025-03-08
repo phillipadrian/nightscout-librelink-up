@@ -2,12 +2,10 @@
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "strict": true,
-    "resolveJsonModule": true
+    "rootDir": "src"
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src/**/*"]
+},
   "exclude": [
     "node_modules"
   ]
